@@ -1,0 +1,27 @@
+#################
+# Gradle Ignore #
+#################
+
+.gradle
+build/
+
+# Eclipse project files
+.project
+.classpath
+.settings
+bin/
+
+###############
+# Java Ignore #
+###############
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs
+hs_err_pid*
+/.nb-gradle/

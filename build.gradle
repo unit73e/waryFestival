@@ -1,0 +1,15 @@
+apply plugin: 'eclipse'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'java'
+apply plugin: 'ear'
+
+group = 'pt.nitric'
+version = '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'javax:javaee-api:7.0'
+}
